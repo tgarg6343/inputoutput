@@ -1,0 +1,7 @@
+<p>
+  child1 works!
+  {{child1}}
+</p>
+<app-grandchild1 [child11]="msg1" [child12]="msg2" (messageEvent)="receiveMsgFromGrandChild1($event)"></app-grandchild1>
+<app-grandchild2></app-grandchild2>
+<!-- <app-grandchild1></app-grandchild1> -->
